@@ -1,0 +1,37 @@
+{
+  "name": "is-xcf",
+  "version": "0.0.1",
+  "description": "Check if a buffer/array is an XCF image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pskupinski/is-xcf.git"
+  },
+  "keywords": [
+    "xcf",
+    "graphics",
+    "image",
+    "pic",
+    "picture",
+    "photo",
+    "type",
+    "detect",
+    "check",
+    "is",
+    "buffer",
+    "array",
+    "uint8array"
+  ],
+  "author": {
+    "name": "Preston Skupinski",
+    "email": "preston.skupinski@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pskupinski/is-xcf/issues"
+  },
+  "homepage": "https://github.com/pskupinski/is-xcf"
+}
