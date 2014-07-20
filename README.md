@@ -3,6 +3,8 @@ is-xcf
 
 Check if a Buffer/Array is an XCF image
 
+Inspired by [sindresorhus](https://github.com/sindresorhus) and his wonderful repos like [is-gif](https://github.com/sindresorhus/is-gif).
+
 ## Install
 
 ```sh
