@@ -8,7 +8,11 @@ Inspired by [sindresorhus](https://github.com/sindresorhus) and his wonderful re
 ## Install
 
 ```sh
-npm install is-xcf
+npm install --save is-xcf
+```
+
+```sh
+bower install --save is-xcf
 ```
 
 ## Usage
