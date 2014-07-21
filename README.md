@@ -13,12 +13,29 @@ npm install is-xcf
 
 ## Usage
 
+
+##### Node.js
+
 ```js
 var fs = require('fs');
 var isXCF = require('is-xcf');
 var buffer = fs.readFileSync('awesome.xcf');
 
 isXCF(buffer); // returns true
+```
+
+##### Browser
+
+```js
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'awesome.xcf');
+xhr.responseType = 'arraybuffer';
+
+xhr.onload = function () {
+  isXCF(new Uint8Array(this.response)); // returns true
+};
+
+xhr.send();
 ```
 
 ## API
