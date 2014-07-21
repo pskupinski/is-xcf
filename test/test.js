@@ -1,7 +1,7 @@
 'use strict';
 var assert = require('assert');
 var isXCF = require('../index.js');
-var fs =require('fs');
+var fs = require('fs');
 
 it('should reject a JPEG image from a buffer', function () {
   var jpegTestFile = fs.readFileSync('test/fixture.jpg');
