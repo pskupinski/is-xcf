@@ -1,11 +1,11 @@
 {
   "name": "is-xcf",
   "version": "0.0.4",
-  "description": "Check if a buffer/array is an XCF image",
+  "description": "Check if a buffer/Uint8Array is an XCF image",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "browser": "browserify -s $npm_package_name -o browser.js ."
+    "browser": "browserify -s $npm_package_name -o dist/is-xcf.js ."
   },
   "repository": {
     "type": "git",
