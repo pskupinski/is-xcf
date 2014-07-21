@@ -1,6 +1,6 @@
 {
   "name": "is-xcf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if a buffer/array is an XCF image",
   "main": "index.js",
   "scripts": {
