@@ -14,9 +14,9 @@ npm install is-xcf
 ## Usage
 
 ```js
-var readChunk = rquire('read-chunk'); // npm install read-chunk
+var fs = require('fs');
 var isXCF = require('is-xcf');
-var buffer = readChunk.sync('awesome.xcf', 0, 8);
+var buffer = fs.readFileSync('awesome.xcf');
 
 isXCF(buffer); // returns true
 ```
