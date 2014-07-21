@@ -4,12 +4,19 @@
   "description": "Check if a buffer/array is an XCF image",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "browser": "browserify -s $npm_package_name -o browser.js ."
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/pskupinski/is-xcf.git"
   },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "xcf",
     "graphics",
@@ -25,6 +32,10 @@
     "array",
     "uint8array"
   ],
+  "devDependencies": {
+    "browserify": "~4.2.0",
+    "mocha": "~1.20.0"
+  },
   "author": {
     "name": "Preston Skupinski",
     "email": "preston.skupinski@gmail.com"

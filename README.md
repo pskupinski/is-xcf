@@ -1,7 +1,7 @@
 is-xcf
 ======
 
-Check if a Buffer/Array is an XCF image
+Check if a Buffer/Uint8Array is an XCF image
 
 Inspired by [sindresorhus](https://github.com/sindresorhus) and his wonderful repos like [is-gif](https://github.com/sindresorhus/is-gif).
 
@@ -23,9 +23,9 @@ isXCF(buffer); // returns true
 
 ## API
 
-### isXCF(byteArray)
+### isXCF(buffer)
 
-Accepts a Buffer or Array.
+Accepts a Buffer or Unit8Array.
 
 Only needs the first 8 bytes, more is fine though.
 
