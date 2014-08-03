@@ -1,0 +1,24 @@
+{
+  "name": "is-xcf",
+  "version": "0.0.8",
+  "description": "Check if a buffer/Uint8Array is an XCF image",
+  "license": "ISC",
+  "scripts": [
+    "index.js"
+  ],
+  "keywords": [
+    "xcf",
+    "graphics",
+    "image",
+    "pic",
+    "picture",
+    "photo",
+    "type",
+    "detect",
+    "check",
+    "is",
+    "buffer",
+    "array",
+    "uint8array"
+  ]
+}
